@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Pat White">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+
+    <title>Side Nav</title>
+
+    <script defer src="js/packs/solid.js"></script>
+    <script defer src="js/fontawesome.js"></script>
+
+    <link rel="stylesheet" href="css/side-nav.css">
+  </head>
+  <body>
+    <header class="header">
+      <button type="button" class="js-menu-show header__menu-toggle">
+        <span class="fa fa-bars"></span>
+      </button>
+    </header>
+
+    <aside class="js-side-nav side-nav">
+      <nav class="js-side-nav-container side-nav__container">
+        <button type="button" class="js-menu-hide side-nav__hide">
+          <span class="fa fa-times"></span>
+        </button>
+        <header class="side-nav__header">
+          Side Nav
+        </header>
+        <ul class="side-nav__content">
+          <li>One</li>
+          <li>Two</li>
+          <li>Three</li>
+          <li>Four</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <script type="text/javascript" src="js/side-nav.js"></script>
+  </body>
+</html>
