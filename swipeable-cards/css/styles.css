@@ -1,0 +1,34 @@
+html {
+  font-size: 16px;
+  font-family: 'Arial';
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #dfd7d7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 430px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.card {
+  background: #FFF;
+  border-radius: 0.4rem;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+  margin: 20px 0;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  /*will-change: transform;*/
+}
