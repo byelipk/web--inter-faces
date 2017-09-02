@@ -141,6 +141,7 @@ class App {
     this.target.style.transform  = 'none';
     this.target.style.zIndex = '2';
     this.target = null;
+    this.clone.style.opacity = 0;
   }
 }
 
