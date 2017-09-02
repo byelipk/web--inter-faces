@@ -5,15 +5,18 @@ class Cards {
     this.cards = Array.from(document.querySelectorAll('.card'));
 
     this.onStart = this.onStart.bind(this);
-    this.onMove = this.onMove.bind(this);
-    this.onEnd = this.onEnd.bind(this);
-    this.update = this.update.bind(this);
+    this.onMove  = this.onMove.bind(this);
+    this.onEnd   = this.onEnd.bind(this);
+    this.update  = this.update.bind(this);
+
     this.targetBCR = null;
-    this.target = null;
-    this.startX = 0;
-    this.currentX = 0;
-    this.screenX = 0;
-    this.targetX = 0;
+    this.target    = null;
+    
+    this.startX    = 0;
+    this.currentX  = 0;
+    this.screenX   = 0;
+    this.targetX   = 0;
+
     this.draggingCard = false;
 
     this.addEventListeners();
